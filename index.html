@@ -18,7 +18,12 @@
           <div class="site-header">Mia Zou</div>
           <div class="site-subheader">Web Developer</div>
           <ul class="site-navigation">
-            <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+            <li>
+              <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li>
+              <a href="about.html"><i class="fas fa-id-card"></i> About</a>
+            </li>
           </ul>
         </div>
       </nav>
@@ -31,7 +36,7 @@
           </div>
         </div>
 
-        <h1>My blog</h1>
+        <h1>My Blog</h1>
         <article>
           <h2>Understanding Github</h2>
           <hr />
@@ -45,32 +50,59 @@
             <br />
             Git usually gets his candy from "local". Whenever his candy supply is running low at the online store or whenever his candy creating team invented another type of candy, he would load more candy to his online "master" store.
           </p>
+          <br />
           <p>
-            git status: Tells the "local" situation, for example, how many small changes designers made in "local" that is different from the current "master" store. 
-            <br />
-            git add --all: Loading bags of new version of candy to the truck.
-            <br />
-            git commit -m "message": Candies are now loaded to the truck and ready to be shipped to the "master" store. Attached with a "message" from the local store manager briefly explaining what was new. The truck driver took the message and headed to the road.
-            <br />
-            git push origin master: Truck arrived at the "master" store. Candies are loaded to the "master" store and available for everyone to look around!
-            <br />
-            git checkout -b XXX: "master" store is making lots of profit! Due to the holiday season, Git wants to decorate the "master" store to match the Halloween theme. Git has hired a design company. Git did not want the design company to make decoration without his approval. So he has created a branch called XXX with the exact layout as the "master" store. Git is letting the design company decorate the XXX branch. 
-            <br />
-            git branch: This is a map tells you how many branch Git has created offline. 
-            <br />
-            git checkout xxx: This is a taxi that can transport Git from branches to branches. 
-            <br />
-            git merge XXX: Once Git approved the design, git merge (which is a decorating company) would copy the XXX's branch to "master" store and make the Halloween decoration alive online!
-            <br />
-            git pull origin master: One day, Git was visiting the online "master" store. A business man from Magic Candy Wholesale happened to visit the store. Git has tried the tasty magic candy and was amazed by the taste. He decided to sale the magic candy in his online store immediately! Now the online store "master" has little magic candy in stock. But the "local" was not aware of the situation. Neither was the contract signed. "git pull origin master" would update the "local" store as well as taken care of the rest of the conflicts so that the "local" and the "master" are on the same page.
-            <br />
-            Additional Magical Spells:
-            <br />
-            git stash: Remember Git likes to create a side branch and seeing the real world result before pushing anything to the online "master" store. Well, one of the designer accidently went to the wrong address. He went to the "master" store instead of the "styling branch" and accidently painted the door! When he realized his mistake, he wasn't rattled. He has learned the magic spell from his mentor before - "git stash". When he performed "git stash", the painted door returned to its original color. 
-            <br />
-            git stash pop: He then went to the "styling" branch. Imaging he has to paint the door again? He then performed another magic spell "git stash pop", the door in the "styling" branch has been painted! 
-            (Basically, "git stash" and "git stash pop" could be used when you accidently editted your code in the wrong branch. You may recall your action by using "git stash" and then going to the correct branch and added the code by using "git stash pop".)
-            <br />
+            <ul>
+              <li>
+                git status: Tells the "local" situation, for example, how many small changes designers made in "local" that is different from the current "master" store.
+              </li>
+              <br />
+              <li>
+                git add --all: Loading bags of new version of candy to the truck.
+              </li>
+              <br />
+              <li>
+                git commit -m "message": Candies are now loaded to the truck and ready to be shipped to the "master" store. Attached with a "message" from the local store manager briefly explaining what was new. The truck driver took the message and headed to the road.
+              </li>
+              <br />
+              <li>
+                git push origin master: Truck arrived at the "master" store. Candies are loaded to the "master" store and available for everyone to look around!
+              </li>
+              <br />
+              <li>
+                git checkout -b XXX: "master" store is making lots of profit! Due to the holiday season, Git wants to decorate the "master" store to match the Halloween theme. Git has hired a design company. Git did not want the design company to make decoration without his approval. So he has created a branch called XXX with the exact layout as the "master" store. Git is letting the design company decorate the XXX branch. 
+              </li>
+              <br />
+              <li>
+                git branch: This is a map tells you how many branch Git has created offline. 
+              </li>
+              <br />
+              <li>
+                git checkout xxx: This is a taxi that can transport Git from branches to branches. 
+              </li>
+              <br />
+              <li>
+                git merge XXX: Once Git approved the design, git merge (which is a decorating company) would copy the XXX's branch to "master" store and make the Halloween decoration alive online!
+              </li>
+              <br />
+              <li>
+                git pull origin master: One day, Git was visiting the online "master" store. A business man from Magic Candy Wholesale happened to visit the store. Git has tried the tasty magic candy and was amazed by the taste. He decided to sale the magic candy in his online store immediately! Now the online store "master" has little magic candy in stock. But the "local" was not aware of the situation. Neither was the contract signed. "git pull origin master" would update the "local" store as well as taken care of the rest of the conflicts so that the "local" and the "master" are on the same page.
+              </li>
+              <br />
+              Additional Magical Spells:
+              <br />
+              <br />
+              <li>
+                git stash: Remember Git likes to create a side branch and seeing the real world result before pushing anything to the online "master" store. Well, one of the designer accidently went to the wrong address. He went to the "master" store instead of the "styling branch" and accidently painted the door! When he realized his mistake, he wasn't rattled. He has learned the magic spell from his mentor before - "git stash". When he performed "git stash", the painted door returned to its original color. 
+              </li>
+              <br />
+              <li>
+                git stash pop: He then went to the "styling" branch. Imaging he has to paint the door again? He then performed another magic spell "git stash pop", the door in the "styling" branch has been painted!
+              </li>
+              <br />
+              (Basically, "git stash" and "git stash pop" could be used when you accidently editted your code in the wrong branch. You may recall your action by using "git stash" and then going to the correct branch and added the code by using "git stash pop".)
+              <br />
+            </ul>
           </p>
           <p>
             Happy Halloween!
